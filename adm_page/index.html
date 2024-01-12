@@ -70,29 +70,29 @@
 
                                     <div class="col-md-4">
                                         <label for="firstName" class="form-label small">Student Name:</label>
-                                        <input type="text" class="form-control required" id="firstName" placeholder="First Name"  >
+                                        <input type="text" class="form-control required" id="firstName" placeholder="First Name" name="fname">
                                     </div>
                                     <div class="col-md-4">
                                         <label for="middleName" class="form-label small ">Middle Name:</label>
-                                        <input type="text" class="form-control" id="middleName" placeholder="Middle Name" >
+                                        <input type="text" class="form-control" id="middleName" placeholder="Middle Name" name="mname">
                                     </div>
                                     <div class="col-md-4">
                                         <label for="lastName" class="form-label small">Last Name:</label>
-                                        <input type="text" class="form-control " id="lastName" placeholder="Last Name"  >
+                                        <input type="text" class="form-control " id="lastName" placeholder="Last Name" name="lname" >
                                     </div>
                                 </div>
 
                                 <div class="row mb-3">
                                     <div class="col-md-6">
-                                        <label for="adharNumber" class="form-label small">Aadhar Number:</label>
-                                        <input type="text" class="form-control  " id="adharNumber" maxlength="12" >
+                                        <label for="adharNumber" class="form-label small" >Aadhar Number:</label>
+                                        <input type="text" class="form-control  " id="adharNumber" maxlength="12" name="aadhar_number">
                                     </div>
                                     <div class="col-md-6">
                                         
                                         <label for="mobileNumber" class="form-label small ">Mobile Number:</label>
                                         <div class="input-group">
                                             <span class="input-group-text">+91</span>
-                                            <input type="text" class="form-control " id="mobile" maxlength="10" >
+                                            <input type="text" class="form-control " id="mobile" maxlength="10" name="mobile_number">
                                         </div>
                                                                             </div>
                                 </div>
@@ -100,11 +100,11 @@
                                 <div class="row mb-3">
                                     <div class="col-md-6">
                                         <label for="email" class="form-label small ">Email Id:</label>
-                                        <input type="email" class="form-control " id="email" >
+                                        <input type="email" class="form-control " id="email" name="email">
                                     </div>
                                     <div class="col-md-6">
                                         <label for="dob" class="form-label small">DOB:</label>
-                                        <input type="date" class="form-control " id="dob" >
+                                        <input type="date" class="form-control " id="dob" name="DOB" >
                                     </div>
                                 </div>
 
@@ -112,24 +112,24 @@
                                     <div class="col-md-12">
                                         <label for="Present_address" class="control-label col-sm-3 small ">Local/Present Address:</label>
                                         <div class="row" name="Present_address">
-                                              <div class="col-lg-2" id="hno"><input type="text" name="hno"  class="form-control " placeholder="House no." style="width:80%"></div>  
-                                              <div class="col-lg-2 " id="street_name"> <input type="text" name="street"  class="form-control " placeholder="street name" style="width:80%" > </div>  
-                                              <div class="col-lg-2 " id="village"> <input type="text" name="city"  class="form-control " placeholder="village/city" style="width:80%" > </div>  
-                                              <div class="col-lg-2 "id="district"> <input type="text" name="city"  class="form-control " placeholder="district" style="width:80%" > </div>  
-                                              <div class="col-lg-2 " id="state"> <input type="text" name="state"  class="form-control " placeholder="state" style="width:80%" ></div>  
-                                              <div class="col-lg-2 " id="pincode"> <input type="text" name="pincode"  class="form-control " placeholder="pincode" style="width:80% " maxlength="6" > </div>  
+                                              <div class="col-lg-2" id="hno"><input type="text" name="l_hno"  class="form-control " placeholder="House no." style="width:80%"></div>  
+                                              <div class="col-lg-2 " id="street_name"> <input type="text" name="l_street"  class="form-control " placeholder="street name" style="width:80%" > </div>  
+                                              <div class="col-lg-2 " id="village"> <input type="text" name="l_city"  class="form-control " placeholder="village/city" style="width:80%" > </div>  
+                                              <div class="col-lg-2 "id="district"> <input type="text" name="l_district"  class="form-control " placeholder="district" style="width:80%" > </div>  
+                                              <div class="col-lg-2 " id="state"> <input type="text" name="l_state"  class="form-control " placeholder="state" style="width:80%" ></div>  
+                                              <div class="col-lg-2 " id="pincode"> <input type="text" name="l_pincode"  class="form-control " placeholder="pincode" style="width:80% " maxlength="6" > </div>  
             
                                             </div>
                                     </div>
                                     <div class="col-md-12 mt-3">
                                         <label for="Present_address" class="control-label col-sm-3 small ">Permanent Address:</label>
                                         <div class="row" name="Present_address">
-                                              <div class="col-lg-2" id="p_hno"><input type="text" name="hno" class="form-control " placeholder="House no." style="width:80%"></div>  
-                                              <div class="col-lg-2" id="p_street_name"> <input type="text" name="street"  class="form-control " placeholder="street name" style="width:80%" > </div>  
-                                              <div class="col-lg-2" id="p_village"> <input type="text" name="city"  class="form-control " placeholder="village/city" style="width:80%" > </div>  
-                                              <div class="col-lg-2" id="p_district"> <input type="text" name="city"  class="form-control " placeholder="district" style="width:80%" > </div> 
-                                              <div class="col-lg-2" id="p_state"> <input type="text" name="state"  class="form-control " placeholder="state" style="width:80%" > </div>  
-                                              <div class="col-lg-2" id="p_pincode"> <input type="text" name="pincode"  class="form-control " placeholder="pincode" style="width:80%" maxlength="6" > </div>  
+                                              <div class="col-lg-2" id="p_hno"><input type="text" name="p_hno" class="form-control " placeholder="House no." style="width:80%"></div>  
+                                              <div class="col-lg-2" id="p_street_name"> <input type="text" name="p_street"  class="form-control " placeholder="street name" style="width:80%" > </div>  
+                                              <div class="col-lg-2" id="p_village"> <input type="text" name="p_city"  class="form-control " placeholder="village/city" style="width:80%" > </div>  
+                                              <div class="col-lg-2" id="p_district"> <input type="text" name="p_district"  class="form-control " placeholder="district" style="width:80%" > </div> 
+                                              <div class="col-lg-2" id="p_state"> <input type="text" name="p_state"  class="form-control " placeholder="state" style="width:80%" > </div>  
+                                              <div class="col-lg-2" id="p_pincode"> <input type="text" name="p_pincode"  class="form-control " placeholder="pincode" style="width:80%" maxlength="6" > </div>  
             
                                             </div>
                                     </div>
@@ -147,7 +147,7 @@
                                     </div>
                                     <div class="col-md-6">
                                         <label for="branchApplying" class="form-label small ">Branch Applying:</label>
-                                        <select name="branchApplying" id="branchApplying" class="form-select"  >
+                                        <select name="branch_applying" id="branchApplying" class="form-select"  >
                                             <option value="" selected>Select</option>
                                             <option value="CSE">CSE</option>
                                             <option value="ECE">ECE</option>
@@ -181,7 +181,7 @@
                                     </div>
                                     <div class="col-md-6">
                                         <label for="bloodGroup" class="form-label small ">Blood Group:</label>
-                                        <select name="bloodGroup" id="bloodGroup" class="form-select" >
+                                        <select name="blood_group" id="bloodGroup" class="form-select" >
                                             <option value="">Select</option>
                                             <option value="O+">O+</option>
                                             <option value="O-">O-</option>
@@ -208,14 +208,14 @@
   
                                     <div class="col-md-6 ">
                                         <label for="caste" class="form-label small">Caste:</label>
-                                        <input type="text" name="" id="" class="form-control" >
+                                        <input type="text" name="caste" id="" class="form-control" >
                                     </div>
                                 </div>
 
                                 <div class="row mb-3">
                                     <div class="col-md-6">
                                         <label for="allottedCategory" class="form-label small">Allotted Category:</label>
-                                        <select name="allottedCategory" id="allottedCategory" class="form-select" >
+                                        <select name="allotted_category" id="allottedCategory" class="form-select" >
                                             <option value="">Select</option>
                                             <option value="EWS">EWS</option>
                                             <option value="OBC">OBC</option>
@@ -226,7 +226,7 @@
                                     
                                     <div class="col-md-6 ">
                                         <label for="caste" class="form-label small">Reservation Category:</label>
-                                        <select name="blood_group" id="blood_group" class="form-select" >
+                                        <select name="reservation_category" id="reservationCategory" class="form-select" >
                                             <option value="">Select</option>
                                             <option value="">OC</option>
                                             <option value="O+"> BC-A </option>
@@ -255,7 +255,7 @@
                                     </div>
                                     <div class="col-md-6">
                                         <label for="ph" class="form-label small ">Physically Handicapped Proof:</label>
-                                        <input type="file" class="form-control" name="ph" id="fileconstraint10" >
+                                        <input type="file" class="form-control" id="fileconstraint10" name="ph_doc" >
                                         <small class="form-text text-muted">File should be less than 100 KB and in PDF format only.</small>
 
                                     </div>
@@ -279,18 +279,18 @@
                                 <div class="row mb-">
                                     <div class="col-md-4"> 
                                         <label for="ph" class="form-label small ">Student Passport-size Photo:</label>
-                                        <input type="file" class="form-control required" name="ph" id="fileconstraint1">
+                                        <input type="file" class="form-control required" name="student_photo" id="fileconstraint1">
                                         <small class="form-text text-muted">File should be less than 100 KB and in image format (JPEG, PNG, etc,.)</small>
 
                                     </div>
                                     <div class="col-md-4"> 
                                         <label for="ph" class="form-label small">Aadhar Proof:</label>
-                                        <input type="file" class="form-control " name="ph"  id="fileconstraint2">
+                                        <input type="file" class="form-control " name="aadhar_doc"  id="fileconstraint2">
                                         <small class="form-text text-muted">File should be less than 100 KB and in PDF format only.</small>
  </div>
                                     <div class="col-md-4"> 
                                         <label for="ph" class="form-label small ">Allotment Order & Joining Order (Merged PDF):</label>
-                                        <input type="file" class="form-control " name="ph" id="mergedfileconstraint">
+                                        <input type="file" class="form-control " name="aj_docs" id="mergedfileconstraint">
                                         <small class="form-text text-muted">File should be less than 1 MB and in PDF format only.</small>
 
                                     </div>
@@ -300,18 +300,18 @@
                                 <div class="row ">
                                     <div class="col-md-4">
                                         <label for="ph" class="form-label small ">Transfer Certificate:</label>
-                                        <input type="file" class="form-control" name="ph" id="fileconstraint3"> 
+                                        <input type="file" class="form-control" name="tc_doc" id="fileconstraint3"> 
                                         <small class="form-text text-muted">File should be less than 100 KB and in PDF format only.</small>
                                     </div>
                                     <div class="col-md-4"> 
                                         <label for="ph" class="form-label small ">Caste Certificate:</label>
-                                        <input type="file" class="form-control" name="ph" id="fileconstraint4">
+                                        <input type="file" class="form-control" name="caste_doc" id="fileconstraint4">
                                         <small class="form-text text-muted">File should be less than 100 KB and in PDF format only.</small>
 
                                     </div>
                                     <div class="col-md-4"> 
                                         <label for="ph" class="form-label small ">Income Proof (Ration/Income Certificate):</label>
-                                        <input type="file" class="form-control" name="ph" id="fileconstraint5">
+                                        <input type="file" class="form-control" name="ir_doc" id="fileconstraint5">
                                         <small class="form-text text-muted">File should be less than 100 KB and in PDF format only.</small>
                                     </div>
 
@@ -327,7 +327,7 @@
 
                                 <div class="col-md-6">
                                     <label for="ssc_exam_type" class="control-label col-sm-4  small">Examination:</label>
-                                    <select name="ssc_exam_type" id="ssc_exam_type" class="form-select " >
+                                    <select name="s_qualification" id="ssc_exam_type" class="form-select " >
                                         <option selected disabled value="">Select</option>
                                         <option value="SSC">S.S.C</option>  
                                         <option value="SSC Equivalent">S.S.C Equivalent</option>
@@ -336,22 +336,22 @@
 
                                 <div class="col-md-6">
                                     <label for="ssc_exam_type" class="control-label col-sm-4  small">Roll Number:</label>
-                                    <input type="text" name="" id="" class="form-control" >
+                                    <input type="text" name="s_roll" id="" class="form-control" >
                                 </div>
                             </div>
 
                             <div class="row mb-3">
                                 <div class="col-md-6">
                                     <label for="ssc_exam_type" class="control-label col-sm-4  small">Institute Name:</label>
-                                    <input type="text" class="form-control" >
+                                    <input type="text" class="form-control" name="s_institute_name" >
                                 </div>
                                 <div class="col-md-3">
                                     <label for="ssc_exam_type" class="control-label col-sm-4  small">City:</label>
-                                    <input type="text" class="form-control" >
+                                    <input type="text" class="form-control" name="s_institute_city">
                                 </div>
                                 <div class="col-md-3">
                                     <label for="ssc_exam_type" class="control-label col-sm-4  small">State:</label>
-                                    <input type="text" class="form-control" >
+                                    <input type="text" class="form-control" name="s_institute_state" >
                                 </div>
 
                             </div>
@@ -361,41 +361,41 @@
                             <div class="row mb-3">
                                 <div class="col-md-6">
                                     <label for="ssc_exam_type" class="control-label col-sm-4  small">Year Of Passing:</label>
-                                    <input type="date" class="form-control" >
+                                    <input type="date" class="form-control" name="s_YOP">
                                 </div>
                                 <div class="col-md-6">
                                     <label for="ssc_exam_type" class="control-label col-sm-4  small">Board:</label>
-                                    <input type="text" class="form-control" >
+                                    <input type="text" class="form-control" name="s_board">
                                 </div>
                             </div>
 
                             <div class="row mb-3">
                                 <div class="col-md-3">
                                     <label for="ssc_exam_type" class="control-label   small">Marks Obtained:</label>
-                                    <input type="number" class="form-control">
+                                    <input type="number" class="form-control"  name="s_marks_obtained">
                                 </div>
                                 <div class="col-md-3">
                                     <label for="ssc_exam_type" class="control-label   small">Total Marks:</label>
-                                    <input type="number" class="form-control" >
+                                    <input type="number" class="form-control" name="s_total_marks">
                                 </div>
                                 <div class="col-md-3">
                                     <label for="ssc_exam_type" class="control-label  small">Percentage:</label>
-                                    <input type="number" class="form-control" >
+                                    <input type="number" class="form-control" name="s_percentage">
                                 </div>
                                 <div class="col-md-3">
                                     <label for="ssc_exam_type" class="control-label   small">CGPA:</label>
-                                    <input type="number" class="form-control" >
+                                    <input type="number" class="form-control" name="s_cgpa">
                                 </div>
                             </div>
 
                             <div class="row mb-4">
                                 <div class="col-md-6">
                                     <label for="ssc_exam_type" class="control-label   small">Provisional Certificate Number:</label>
-                                    <input type="text" class="form-control" >
+                                    <input type="text" class="form-control" name="s_pc_number">
                                 </div>
                                 <div class="col-md-6">
                                     <label for="ssc_exam_type" class="control-label   small">Provisional Certificate:</label>
-                                    <input type="file" class="form-control" id="fileconstraint6">
+                                    <input type="file" class="form-control" id="fileconstraint6" name="s_pc_doc">
                                     <small class="form-text text-muted">File should be less than 100 KB and in PDF format only.</small>
 
                                 </div>
@@ -408,7 +408,7 @@
 
                                 <div class="col-md-6">
                                     <label for="ssc_exam_type" class="control-label   small">Examination:</label>
-                                    <select name="ssc_exam_type" id="ssc_exam_type" class="form-select" >
+                                    <select name="h_qualification" id="ssc_exam_type" class="form-select" >
                                         <option selected disabled value="">Select</option>
                                         <option value="SSC">Intermediate</option>  
                                         <option value="SSC Equivalent">Diploma</option>
@@ -417,12 +417,12 @@
 
                                 <div class="col-md-3">
                                     <label for="ssc_exam_type" class="control-label   small">Roll Number:</label>
-                                    <input type="text" name="" id="" class="form-control" >
+                                    <input type="text" name="h_roll" id="" class="form-control" >
                                 </div>
                                 
                                 <div class="col-md-3">
                                     <label for="ssc_exam_type" class="control-label  small">Group/Course:</label>
-                                    <input type="text" name="" id="" class="form-control" >
+                                    <input type="text" name="" id="h_course" class="form-control" >
 
                                 </div>
                                 
@@ -431,15 +431,15 @@
                             <div class="row mb-3">
                                 <div class="col-md-6">
                                     <label for="ssc_exam_type" class="control-label col-sm-4  small">Institute Name:</label>
-                                    <input type="text" class="form-control" >
+                                    <input type="text" class="form-control" name="h_institute_name">
                                 </div>
                                 <div class="col-md-3">
                                     <label for="ssc_exam_type" class="control-label col-sm-4  small">City:</label>
-                                    <input type="text" class="form-control" >
+                                    <input type="text" class="form-control" name="h_institute_city">
                                 </div>
                                 <div class="col-md-3">
                                     <label for="ssc_exam_type" class="control-label col-sm-4  small">State:</label>
-                                    <input type="text" class="form-control" >
+                                    <input type="text" class="form-control" name="h_institute_state">
                                 </div>
 
                             </div>
@@ -449,41 +449,41 @@
                             <div class="row mb-3">
                                 <div class="col-md-6">
                                     <label for="ssc_exam_type" class="control-label col-sm-4  small">Year Of Passing:</label>
-                                    <input type="date" class="form-control" >
+                                    <input type="date" class="form-control" name="h_YOP">
                                 </div>
                                 <div class="col-md-6">
                                     <label for="ssc_exam_type" class="control-label col-sm-4  small">Board:</label>
-                                    <input type="text" class="form-control" >
+                                    <input type="text" class="form-control" name="n_board">
                                 </div>
                             </div>
 
                             <div class="row mb-3">
                                 <div class="col-md-3">
                                     <label for="ssc_exam_type" class="control-label   small">Marks Obtained:</label>
-                                    <input type="number" class="form-control" >
+                                    <input type="number" class="form-control" name="h_marks_obtained" >
                                 </div>
                                 <div class="col-md-3">
                                     <label for="ssc_exam_type" class="control-label   small">Total Marks:</label>
-                                    <input type="number" class="form-control" >
+                                    <input type="number" class="form-control" name="h_total_marks">
                                 </div>
                                 <div class="col-md-3">
                                     <label for="ssc_exam_type" class="control-label  small">Percentage:</label>
-                                    <input type="number" class="form-control" >
+                                    <input type="number" class="form-control" name="h_percentage" >
                                 </div>
                                 <div class="col-md-3">
                                     <label for="ssc_exam_type" class="control-label   small">CGPA:</label>
-                                    <input type="number" class="form-control" >
+                                    <input type="number" class="form-control" name="h_cgpa" >
                                 </div>
                             </div>
 
                             <div class="row mb-3">
                                 <div class="col-md-6">
                                     <label for="ssc_exam_type" class="control-label   small">Provisional Certificate Number:</label>
-                                    <input type="text" class="form-control" >
+                                    <input type="text" class="form-control" name="h_pc_number">
                                 </div>
                                 <div class="col-md-6">
                                     <label for="ssc_exam_type" class="control-label   small">Provisional Certificate:</label>
-                                    <input type="file" class="form-control" id="fileconstraint7">
+                                    <input type="file" class="form-control" id="fileconstraint7" name="h_pc_doc">
                                     <small class="form-text text-muted">File should be less than 100 KB and in PDF format only.</small>
 
                                 </div>
@@ -500,24 +500,24 @@
     <div class="col-md-6">
 
         <label for="ssc_exam_type" class="control-label   small">Full Name:</label>
-        <input type="text" class="form-control" id="f_name">
+        <input type="text" class="form-control" id="f_name" name="father_name">
     </div>
     <div class="col-md-6">
         <label for="ssc_exam_type" class="control-label   small"> Qualification:</label>
-        <input type="text" class="form-control" id="f_qualification">
+        <input type="text" class="form-control" id="f_qualification" name="father_qualification">
     </div>
 </div>
 
 <div class="row mb-3">
     <div class="col-md-6">
         <label for="ssc_exam_type" class="control-label   small"> Occupation:</label>
-        <input type="text" class="form-control" id="f_occupation">
+        <input type="text" class="form-control" id="f_occupation" name="father_occupation">
     </div>
     <div class="col-md-6 mb-4">
         <label for="ssc_exam_type" class="control-label   small"> Phone Number:</label>
         <div class="input-group">
             <span class="input-group-text">+91</span>
-            <input type="text" class="form-control " id="f_phone" maxlength="10" >
+            <input type="text" class="form-control " id="f_phone" maxlength="10" name="father_phone">
         </div>
     </div>
 </div>
@@ -527,11 +527,11 @@
 
     <div class="col-md-6">
         <label for="ssc_exam_type" class="control-label   small">Full Name:</label>
-        <input type="text" class="form-control" id="m_name">
+        <input type="text" class="form-control" id="m_name" name="mother_name">
     </div>
     <div class="col-md-6">
         <label for="ssc_exam_type" class="control-label   small"> Qualification:</label>
-        <input type="text" class="form-control" id="m_qualification">
+        <input type="text" class="form-control" id="m_qualification" name="mother_qualification">
     </div>
 </div>
 
@@ -539,13 +539,13 @@
 
     <div class="col-md-6">
         <label for="ssc_exam_type" class="control-label   small"> Occupation:</label>
-        <input type="text" class="form-control" id="m_occupation">
+        <input type="text" class="form-control" id="m_occupation" name="mother_occupation">
     </div>
     <div class="col-md-6 mb-4">
         <label for="ssc_exam_type" class="control-label   small"> Phone Number:</label>
         <div class="input-group">
             <span class="input-group-text">+91</span>
-            <input type="text" class="form-control " id="m_phone" maxlength="10" >
+            <input type="text" class="form-control " id="m_phone" maxlength="10" name="mother_phone" >
         </div>
     </div>
 </div>
@@ -555,24 +555,24 @@
 
     <div class="col-md-6">
         <label for="ssc_exam_type" class="control-label   small">Full Name:</label>
-        <input type="text" class="form-control" id="g_name">
+        <input type="text" class="form-control" id="g_name" name="guardian_name">
     </div>
     <div class="col-md-6">
         <label for="ssc_exam_type" class="control-label   small"> Qualification:</label>
-        <input type="text" class="form-control" id="g_qualification">
+        <input type="text" class="form-control" id="g_qualification" name="guardian_qualification">
     </div>
 </div>
 
 <div class="row mb-3">
     <div class="col-md-6">
         <label for="ssc_exam_type" class="control-label   small"> Occupation:</label>
-        <input type="text" class="form-control"  id="g_occupation">
+        <input type="text" class="form-control"  id="g_occupation" name="guardian_occupation">
     </div>
     <div class="col-md-6">
         <label for="ssc_exam_type" class="control-label   small"> Phone Number:</label>
         <div class="input-group">
             <span class="input-group-text">+91</span>
-            <input type="text" class="form-control " id="g_phone" maxlength="10" >
+            <input type="text" class="form-control " id="g_phone" maxlength="10" name="guardian_phone" >
         </div>
     </div>
 </div>
@@ -584,7 +584,7 @@
 <div class="row mb-3">
     <div class="col-md-6">    
         <label for="ssc_exam_type" class="control-label   small">Parent/Guardian Email Id:</label>
-        <input type="email" class="form-control" ></div>
+        <input type="email" class="form-control" name="pg_email"></div>
 </div>
 
 
@@ -596,7 +596,7 @@
 
     <div class="col-md-6 ">
         <label for="ssc_exam_type" class="control-label   small">Test Name:</label>
-        <select name="ssc_exam_type" id="test_name" class="form-select" required>
+        <select name="e_test_name" id="test_name" class="form-select" required>
             <option selected disabled value="">Select</option>
             <option value="A.P EAMCET">A.P EAMCET</option>  
             <option value="A.P ECET">A.P ECET</option>
@@ -606,7 +606,7 @@
     </div>
     <div class="col-md-6">
         <label for="ssc_exam_type" class="form-label  small">Hall Ticket Number:</label>
-        <input type="text" class="form-control form-check " id="hall_ticket_number"  >
+        <input type="text" class="form-control form-check " id="hall_ticket_number"  name="e_hallticket_number">
 
     </div>
     
@@ -616,17 +616,17 @@
 <div class="row mb-3">
     <div class="col-md-4">
         <label for="ssc_exam_type" class="control-label   small">Test Date:</label>
-        <input type="date" class="form-control" id="test_date" onchange="handleTestDate()">
+        <input type="date" class="form-control" id="test_date" name="e_test_date" onchange="handleTestDate()">
     </div>
     <div class="col-md-4">
         <label for="ssc_exam_type" class="control-label   small">Rank Obtained:</label>
-        <input type="number" class="form-control" id="rank_obtained">
+        <input type="number" class="form-control" id="rank_obtained" name="e_rank_obatained">
     </div>
     <div class="col-md-4 mb-4">
         <label for="fileconstraint9" class="control-label  small">Upload Rank Card:</label>
-        <input type="file" class="form-control" id="fileconstraint9" placeholder="NA" >
+        <input type="file" class="form-control" id="fileconstraint9" placeholder="NA" name="e_rank_card">
         
-        <small class="form-text text-muted">File should be less than 1000 KB and in PDF format only.</small>
+        <small class="form-text text-muted">File should be less than 100 KB and in PDF format only.</small>
 
     </div>
 
@@ -644,27 +644,27 @@
         <h5 class="card-title text-center mb-4 fw-bold">JEE MAINS Test Details</h5>
         <div class="col-md-6">
             <label for="ssc_exam_type" class="control-label   small">Test Name:</label>
-            <select name="ssc_exam_type" id="j_test_name" class="form-select " >
+            <select name="j_test_name" id="j_test_name" class="form-select " >
                 <option selected disabled value="">Select</option>
                 <option value="SSC">JEE MAIN</option> 
             </select>
         </div>
         <div class="col-md-6">
             <label for="ssc_exam_type" class="form-label  small">Hall Ticket Number:</label>
-            <input type="text" class="form-control form-check " id="j_hall_ticket_number" >
+            <input type="text" class="form-control form-check " id="j_hall_ticket_number" name="j_hallticket_number" >
         </div>
     </div>
     <div class="row mt-3">
         <div class="col-md-4">
             <label for="ssc_exam_type" class="control-label   small">Test Date:</label>
-            <input type="date" class="form-control" id="j_test_date">
+            <input type="date" class="form-control" id="j_test_date" name="j_test_date">
         </div>
         <div class="col-md-4">        
             <label for="ssc_exam_type" class="control-label   small">Rank Obtained:</label>
-            <input type="number" class="form-control" id="j_rank_obtained"></div>
+            <input type="number" class="form-control" id="j_rank_obtained" name="j_rank_obatained"></div>
         <div class="col-md-4">
             <label for="ssc_exam_type" class="control-label   small">Upload Rank Card:</label>
-            <input type="file" class="form-control" id="fileconstraint11" >
+            <input type="file" class="form-control" id="fileconstraint11" name="j_rank_card">
             <small class="form-text text-muted">File should be less than 100 KB and in PDF format only.</small>
         </div>
     </div>
